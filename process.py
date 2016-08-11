@@ -1,7 +1,8 @@
 import numpy as np
 import cv2
 
-CAMERA_NO = 1
+
+CAMERA_NO = input('Please enter camera index or 0 if only one camera- e.g 0,1,2... :')
 recordVideo = False
 
 #get image stream from camera device 0,1,2...
